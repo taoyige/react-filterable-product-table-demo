@@ -1,0 +1,34 @@
+/*
+* @Author: taoyige
+* @Date:   2017-03-01 14:28:12
+* @Last Modified by:   taoyige
+* @Last Modified time: 2017-03-02 17:15:15
+*/
+
+ul {
+  list-style: none;
+}
+
+#FilterableProductTable {
+  margin-top: 50px;
+  border: 1px #ccc solid;
+  border-radius: 10px;
+}
+
+/**
+ * 已经采购商品行
+ */
+.table > thead > tr > td.stocked,
+.table > tbody > tr > td.stocked,
+.table > tfoot > tr > td.stocked,
+.table > thead > tr > th.stocked,
+.table > tbody > tr > th.stocked,
+.table > tfoot > tr > th.stocked,
+.table > thead > tr.stocked > td,
+.table > tbody > tr.stocked > td,
+.table > tfoot > tr.stocked > td,
+.table > thead > tr.stocked > th,
+.table > tbody > tr.stocked > th,
+.table > tfoot > tr.stocked > th {
+  background-color: #f2dede;
+}
